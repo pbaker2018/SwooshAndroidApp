@@ -1,18 +1,43 @@
-*.iml
+#thumbnails
+._*
+
+#log files
+*.log
+
+gen-external-apklibs
+
+#built application files
 *.apk
 *.ap_
-.apdisk
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
 bin/
 gen/
-.gradle/
-build/
-/local.properties
-.idea/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# OSX files
 .DS_Store
-/build
-/captures
+
+# Android Studio
+*.iml
+.idea
+.gradle
+build/
+.navigation
+captures/
+output.json
+
+#NDK
+obj/
 .externalNativeBuild
-._*
-*.log
-.navigation/
-gen-external-apklibs
+
+#gradle file for windows
+.gradlew.bat
