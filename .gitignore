@@ -39,5 +39,3 @@ output.json
 obj/
 .externalNativeBuild
 
-#gradle file for windows
-.gradlew.bat

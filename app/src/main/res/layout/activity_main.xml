@@ -29,9 +29,8 @@
             android:layout_marginStart="4dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginEnd="4dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="84dp"
             app:layout_constraintTop_toBottomOf="@+id/swooshLogo" android:fontFamily="@font/montserrat"
-    />
+            android:text="GO ALL IN"/>
     <TextView
-            android:text="TextView"
             android:layout_width="320dp"
             android:layout_height="57dp"
             android:id="@+id/goingAllOutTxt" android:textAlignment="center"
@@ -39,7 +38,7 @@
             android:fontFamily="@font/montserrat"
             app:layout_constraintTop_toBottomOf="@+id/goAllInTxt" android:textStyle="bold"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" android:text="ON GOING ALL OUT"/>
     <TextView
             android:layout_width="226dp"
             android:layout_height="48dp"
@@ -49,9 +48,9 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/goingAllOutTxt" android:fontFamily="@font/montserrat"
-    />
+            android:text="Find a team in your city and dominate the league"/>
     <Button
-            android:text="Button"
+            android:text="Get Started"
             android:layout_width="339dp"
             android:layout_height="34dp"
             android:id="@+id/getStartedBtn" app:layout_constraintEnd_toEndOf="parent"
