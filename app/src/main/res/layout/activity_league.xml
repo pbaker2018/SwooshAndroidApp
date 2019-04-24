@@ -70,5 +70,5 @@
             app:layout_constraintStart_toStartOf="parent" tools:text="Next"
             android:textColor="@color/colorAccent" android:background="@drawable/swoosh_button" android:textSize="18sp"
             android:layout_marginBottom="32dp" app:layout_constraintBottom_toBottomOf="@+id/backgroundPage2"
-            android:fontFamily="@font/montserrat"/>
+            android:fontFamily="@font/montserrat" android:onClick="nextClicked"/>
 </android.support.constraint.ConstraintLayout>

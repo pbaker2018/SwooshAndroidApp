@@ -19,4 +19,13 @@
     <string name="background_image1">background image</string>
     <string name="swoosh_logo">swoosh logo</string>
     <string name="background_image2">background image</string>
+    <string name="background_image3">background image3</string>
+    <string name="i_am_a">I am a</string>
+    <string name="finish">FINISH</string>
+    <string name="beginner">Beginner</string>
+    <string name="beginner_off">Beginner</string>
+    <string name="beginner_on">Beginner</string>
+    <string name="baller">Baller</string>
+    <string name="baller_off">Baller</string>
+    <string name="baller_on">Baller</string>
 </resources>
