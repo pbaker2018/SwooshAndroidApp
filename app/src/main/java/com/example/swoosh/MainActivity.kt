@@ -18,7 +18,5 @@ class MainActivity : BaseActivity() {
             /*it is explicit because we specify the target class*/
             /*'this' is referring to the context of the activity we are in*/
         }
-
-
     }
 }

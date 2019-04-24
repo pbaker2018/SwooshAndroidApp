@@ -28,7 +28,6 @@ class LeagueActivity : BaseActivity() {
         mixedToggleButton.isChecked = false
 
         selectedLeague = "Womens"
-
     }
 
     fun onMixedClicked(view: View) {
