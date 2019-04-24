@@ -42,25 +42,28 @@
         <ToggleButton
                 android:text="@string/mens"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/mensToggleButton" android:textOff="@string/mens_off"
+                android:layout_height="wrap_content" android:id="@+id/mensToggleButton"
+                android:textOff="@string/mens_off"
                 android:textOn="@string/mens_on" tools:text="Men's" android:fontFamily="@font/montserrat"
                 android:textSize="18sp" android:textColor="@android:color/white"
-                android:background="@drawable/swoosh_toggle"/>
+                android:background="@drawable/swoosh_toggle" android:onClick="onMensClicked"/>
         <ToggleButton
                 android:text="@string/womens"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/womensToggleButton"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp" android:textOff="@string/womens_off" android:textOn="@string/womens_on"
+                android:layout_marginBottom="16dp" android:textOff="@string/womens_off"
+                android:textOn="@string/womens_on"
                 tools:text="Women's" android:textColor="@android:color/white" android:fontFamily="@font/montserrat"
-                android:textSize="18sp" android:background="@drawable/swoosh_toggle"/>
+                android:textSize="18sp" android:background="@drawable/swoosh_toggle" android:onClick="onWomensClicked"/>
         <ToggleButton
                 android:text="@string/mixed"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/mixedToggleButton" android:textOff="@string/mixed_off"
+                android:layout_height="wrap_content" android:id="@+id/mixedToggleButton"
+                android:textOff="@string/mixed_off"
                 android:textOn="@string/mixed_on" tools:text="Mixed" android:fontFamily="@font/montserrat"
                 android:textSize="18sp" android:textColor="@android:color/white"
-                android:background="@drawable/swoosh_toggle"/>
+                android:background="@drawable/swoosh_toggle" android:onClick="onMixedClicked"/>
     </LinearLayout>
     <Button
             android:text="@string/next"
