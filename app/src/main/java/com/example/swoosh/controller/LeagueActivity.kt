@@ -1,10 +1,11 @@
-package com.example.swoosh
+package com.example.swoosh.controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.swoosh.utilities.EXTRA_LEAGUE
+import com.example.swoosh.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
@@ -37,7 +38,6 @@ class LeagueActivity : BaseActivity() {
         selectedLeague = "Mixed"
     }
     /*the function onMixedClicked takes place outside of onCreate because I used the onclick section of the buttons attributes.*/
-
 
     fun nextClicked(view: View) {
         if (selectedLeague != "") {
