@@ -19,10 +19,12 @@ It demonstrates the use of constraint layout, toggle buttons, toasts, a progress
 
 - Then click on 'Finish'
 
+- NOTE: IF YOU CLICK ON 'FINISH' WITHOUT SELECTING A LEVEL, AN ERROR MESSAGE (TOAST) WILL COME UP.
+
 - The app will then go to the final page, but it doesn't actually find any 'leagues near you,' as I don't yet know how to do that.
 
 
-#Screen Recording of App
+# Screen Recording of App
 
 Copy and paste the following youtube link to see my app in action.
 
