@@ -12,15 +12,26 @@ import kotlinx.android.synthetic.main.activity_level.*
 class LevelActivity : BaseActivity() {
 
     lateinit var player: Player
-    /*this means that later we will be initialising a player of type Player*/
+    /*this means that later we will be initialising a player of class 'Player'*/
+
+    override fun onSaveInstanceState(outState: Bundle?) {
+        super.onSaveInstanceState(outState)
+        outState?.putParcelable(EXTRA_PLAYER, player)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_level)
         player = intent.getParcelableExtra(EXTRA_PLAYER)
-    }
-    /*Here we are accessing the data from the previous page, via the Extra and the constant.
+        /*Here we are accessing the data from the previous page, via the Extra and the constant.
     a kotlin file was created to hold the constant that was created*/
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+        super.onRestoreInstanceState(savedInstanceState)
+        if (savedInstanceState != null) {
+            player = savedInstanceState.getParcelable(EXTRA_PLAYER)
+        }
+    }
 
     fun onBeginnerClick (view: View) {
         ballerButton.isChecked = false
